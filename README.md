@@ -1,4 +1,4 @@
-# Project Title
+# Airport queue simulation
 
 Implementing a queue data type. Using it to simulate the evolution of waiting queues by invoking several instances of the queue data type.
 
@@ -29,7 +29,55 @@ Five inputs will be needed to run the test:
 * The maximum length of the queue for each queue.
 * The average and maximum waiting time for each queue.
 * The rate of occupancy of each service station (percentage of time each station was busy).
-* Show the real-time evolution of the queues during the run-time simulation.
+* Real-time evolution of the queues during the run-time simulation.
+
+```
+---------------------------------------------------------------
+# total arrived passengers : 35
+# Passengers served : 35
+
+Coach Service station details.
+
+ Station ID : 3
+ Maximum length of Queue : 0
+ Maximum waiting time : 540
+ Total duration of simulation : 540
+ Rate of occupancy : 0%
+
+ Station ID : 1
+ Maximum length of Queue : 1
+ Maximum waiting time : 539
+ Total duration of simulation : 540
+ Average Waiting time : 1.00
+ Rate of occupancy : 0%
+
+ Station ID : 2
+ Maximum length of Queue : 1
+ Maximum waiting time : 537
+ Total duration of simulation : 540
+ Average Waiting time : 3.00
+ Rate of occupancy : 0%
+
+First class Service station details.
+
+ Station ID : 2
+ Maximum length of Queue : 16
+ Maximum waiting time : 502
+ Total duration of simulation : 540
+ Average Waiting time : 2.38
+ Rate of occupancy : 7%
+
+ Station ID : 1
+ Maximum length of Queue : 17
+ Maximum waiting time : 502
+ Total duration of simulation : 540
+ Average Waiting time : 2.24
+ Rate of occupancy : 7%
+
+Duration of Simulation : 540
+===============================================================
+---------------------------------------------------------------
+```
 
 #### Real-time simulation
 
